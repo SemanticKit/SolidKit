@@ -15,11 +15,11 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(path: "../WebIDKit"),
-        .package(path: "../URIKit"),
-        .package(path: "../HttpSigKit"),
-        .package(path: "../PolicyKit"),
-        .package(path: "../AuditKit")
+        .package(path: "https://github.com/SemanticKit/WebIDKit.git"),
+        .package(path: "https://github.com/SemanticKit/URIKit.git"),
+        .package(path: "https://github.com/SemanticKit/HttpSigKit.git"),
+        .package(path: "https://github.com/SemanticKit/PolicyKit.git"),
+        .package(path: "https://github.com/SemanticKit/AuditKit.git")
     ],
     targets: [
         .target(
